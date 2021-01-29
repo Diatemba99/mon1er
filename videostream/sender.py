@@ -1,7 +1,7 @@
 from vidstream import ScreenShareClient 
 import threading
 
-sender = ScreenShareClient('192.168.0.106', 9999)
+sender = ScreenShareClient('192.168.0.106', 50649)
 
 
 t = threading.Thread(target=sender.start_stream)
