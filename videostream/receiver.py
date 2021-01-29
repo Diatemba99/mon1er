@@ -1,4 +1,4 @@
-from videostream import StreamingServer
+from vidstream import StreamingServer
 import threading
 
 receiver = StreamingServer('192.168.0.106', 9999)
