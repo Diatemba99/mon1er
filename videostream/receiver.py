@@ -7,5 +7,4 @@ t.start()
 
 while input("") != 'STOP':
     continue
-
 receiver.stop_server()
