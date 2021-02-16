@@ -3,7 +3,6 @@ import threading
 
 sender = ScreenShareClient('192.168.0.106', 50649)
 
-
 t = threading.Thread(target=sender.start_stream)
 t.start()
 
