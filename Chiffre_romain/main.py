@@ -5,6 +5,6 @@ print(Art)
 Art2=text2art("DAFFA NEKH DH", font="bulbhead")  
 print(Art2)
 
-Art3=text2art("Roman", font="graffiti")  
+Art3=text2art("Roman", font="sample")  
 print(Art3)
 
