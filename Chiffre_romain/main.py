@@ -1,10 +1,10 @@
 from art import *
-Art=text2art("="*20, font="choice") 
-print(Art)
+border=text2art("="*20, font="choice") 
+print(border)
 
 Art2=text2art("Roman Cipher", font="lognormvariate")  
 print(Art2)
 
-Art3=text2art("="*20, font="choice")
-print(Art3)
+border2=text2art("="*20, font="choice")
+print(border2)
 
